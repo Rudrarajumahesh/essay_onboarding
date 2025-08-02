@@ -2,10 +2,11 @@
 
 ### Setup
 ```bash
-git clone <repo-url>
+git clone https://github.com/Rudrarajumahesh/essay_onboarding.git
 cd project
 python -m venv venv
-source venv/bin/activate
+source venv/bin/activate (for linux)
+venv\Scripts\activate (For windows)
 pip install -r requirements.txt
 python manage.py migrate
 python manage.py runserver
